@@ -1,0 +1,22 @@
+{
+  "name": "@vandeurenglenn/format-bytes",
+  "version": "1.0.0",
+  "description": "Convert bytes to a human-readable format",
+  "type": "module",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "exports": {
+    ".": {
+      "import": "./index.js",
+      "types": "./index.d.ts"
+    }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}
