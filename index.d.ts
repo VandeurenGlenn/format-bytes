@@ -14,4 +14,4 @@
  * formatBytes(1024 * 1024 * 1024 * 1024 * 1024 * 1024 * 1024); // '1 ZB'
  * formatBytes(1024 * 1024 * 1024 * 1024 * 1024 * 1024 * 1024 * 1024); // '1 YB'
  */
-export declare const formatBytes: (bytes: number, decimals?: number) => string;
+export default function formatBytes(bytes: number, decimals?: number): string;
